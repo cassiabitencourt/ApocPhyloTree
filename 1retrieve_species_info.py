@@ -1,5 +1,3 @@
-#This script retrieves species information from GenBank using a list of accession numbers. It fetches the GenBank record for each #accession, extracts the species name, and saves the results to an output file. The script uses Biopython's Entrez module for #accessing the data and is designed to handle errors if an accession number is invalid.
-
 from Bio import Entrez
 
 # Replace with your email address
