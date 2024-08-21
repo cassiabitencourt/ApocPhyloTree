@@ -1,7 +1,7 @@
 from Bio import Entrez, SeqIO
 
 # Define your email address for Entrez (required)
-Entrez.email = "ca.biten@gmail.com"
+Entrez.email = "your@email.com"
 
 # Define the family name and the gene of interest (rps16)
 family_name = "Apocynaceae"
