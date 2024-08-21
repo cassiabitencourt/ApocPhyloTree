@@ -1,7 +1,7 @@
 from Bio import Entrez
 
 # Replace with your email address
-Entrez.email = "ca.biten@gmail.com"
+Entrez.email = "your@email.com"
 
 def retrieve_species_info(accession):
     try:
